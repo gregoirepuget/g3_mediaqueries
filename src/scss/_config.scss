@@ -5,6 +5,8 @@ $light-grey : #474747;
 $background-body: #ebebeb;
 $grey-text: #646464;
 
+$stepSize1:640px;
+$stepSize2:940px;
 
 
 @font-face {
@@ -28,5 +30,5 @@ $grey-text: #646464;
 }
 
 $primary-font: "nexa", "Arial", sans-serif;
-$primary-color: #f26c4f;
+$primary-color: $orange;
 $secondary-color: $grey-text;

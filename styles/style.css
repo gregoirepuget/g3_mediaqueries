@@ -14,11 +14,18 @@ html {
 body {
   margin: 0;
   font-family: "nexa", "Arial", sans-serif;
-  color: #646464; }
+  color: #646464;
+  background: #ebebeb; }
 
 .container {
-  width: 960px;
+  width: 940px;
   margin: 0 auto; }
+  @media screen and (min-width: 640px) and (max-width: 940px) {
+    .container {
+      width: 640px; } }
+  @media screen and (max-width: 640px) {
+    .container {
+      width: 100%; } }
 
 * {
   color: red; }
