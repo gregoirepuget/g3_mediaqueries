@@ -11,6 +11,17 @@
       color:$white;
       padding: 20px 10px;
     }
+
+    .burger{
+      float:right;
+      margin-top:5px;
+      margin-right:5px;
+      display: none;
+
+      @media screen and (max-width:$stepSize1){
+        display: block;
+      }
+    }
   }
 
 }
