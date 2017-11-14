@@ -9,7 +9,8 @@
   font-weight: normal;
   font-style: normal; }
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-size: 62.5%; }
 
 body {
   margin: 0;
@@ -27,7 +28,29 @@ body {
     .container {
       width: 100%; } }
 
-* {
-  color: red; }
+.header__topBar {
+  background: #373737; }
+  .header__topBar .container h1 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    padding: 20px 10px; }
+
+.header__menu {
+  background: #474747; }
+  .header__menu ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    margin: 0;
+    padding: 0; }
+    .header__menu ul li a {
+      display: block;
+      padding: 20px;
+      font-size: 1.2rem;
+      color: #FFFFFF;
+      text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

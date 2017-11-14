@@ -1,6 +1,5 @@
 @import 'config';
 @import 'body';
 
-*{
-  color:$color;
-}
+@import 'header/headerTopBar';
+@import 'header/headerMenu';
